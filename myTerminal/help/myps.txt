@@ -1,0 +1,9 @@
+usage: myps [option]
+ps displays information about a selection of the active processes.
+
+Options that myShell(myps) can perform are:
+    1) -e Select all processes.
+    2) -a Select all processes except both session leaders and processes not associated with a terminal.
+    3) -F Extra full format.
+    4) -aF Extra full format for processes displayed in (myps -a).
+    5) -eF Extra full format for all processes.

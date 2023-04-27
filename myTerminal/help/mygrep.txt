@@ -1,0 +1,13 @@
+usage: mygrep [OPTION] PATTERN [FILE]...
+PATTERN must contain only one word or words not separated by white spaces.
+
+Options that myShell(mygrep) can perform are:
+    1) -c print only a count of selected lines per FILE.
+    2) -m stop after NUM selected lines.
+    3) -n print line number with output lines.
+    4) -s suppress error messages.
+    5) -l print only names of FILEs with selected lines.
+    6) -v Invert the sense of matching, to select non-matching lines.
+    7) -L Suppress normal output; instead print the  name  of  each  input
+          file from which no output would normally have been printed.
+Syntax for mygrep with -m option is: mygrep -m [integer] PATTERN [FILE]...

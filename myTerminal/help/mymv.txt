@@ -1,0 +1,9 @@
+usage: mymv [option] Source Destination
+
+Rename SOURCE to DEST, or move SOURCE(s) to DIRECTORY.
+
+Options that myShell(mymv) can perform are:
+    1) -v explain what is being done.
+    2) -i prompt before overwrite.
+    3) -n do not overwrite an existing file.
+    4) -f do not prompt before overwriting.

@@ -1,0 +1,12 @@
+Usage: myls [OPTION]
+List information about the FILEs/Directorys (the current directory).
+Sort entries alphabetically if none of -lsS is specified.
+
+Options that myShell(myls) can perform are:
+    1) -l use a long listing format.
+    2) -s print the allocated size of each file, in blocks.
+    3) -S sort by file size, largest first.
+    4) -ls use a long listing format with size allocated of each file, in blocks.
+    5) -lS use a long listing format and sort by file size, largest first.
+    6) -a do not ignore entries starting with.
+    7) -m fill width with a comma separated list of entries.

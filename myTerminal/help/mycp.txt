@@ -1,0 +1,12 @@
+usage: mycp source... Destination Directory
+    or mycp [option] source Destination
+Copy SOURCE to DEST, or multiple SOURCE(s) to DIRECTORY.
+
+Options that myShell(mycp) can perform are:
+    1) -r copy directories recursively.
+    2) -v explain what is being done.
+    3) -l hard link files instead of copying.
+    4) -s make symbolic links instead of copying.
+
+mycp source Destination can copy one file to the destination.
+mycp source... Destination Directory can copy multiple files to the destination directory.
